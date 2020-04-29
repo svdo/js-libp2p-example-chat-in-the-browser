@@ -18,7 +18,7 @@
   "license": "ISC",
   "dependencies": {
     "@babel/preset-env": "^7.8.3",
-    "libp2p": "../../",
+    "libp2p": "^0.27.7",
     "libp2p-bootstrap": "^0.10.3",
     "libp2p-mplex": "^0.9.3",
     "libp2p-secio": "^0.12.2",
