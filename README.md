@@ -1,13 +1,16 @@
 # libp2p chat in the browser
 
-This example leverages the [Parcel.js bundler](https://parceljs.org/) to compile
+This is a TypeScript example of using [libp2p][libp2p] in a browser for
+bidirectional communication.
+
+This example leverages the [Parcel.js bundler][parcel] to compile
 and serve the libp2p chat in the browser. Parcel uses
-[Babel](https://babeljs.io/) to handle transpilation of the code. You can use
+[Babel][babel] to handle transpilation of the code. You can use
 other bundlers such as Webpack or Browserify, but we will not be covering them
 here.
 
 Some interesting discussion and background on this example can be found in [it's
-pull request](https://github.com/libp2p/js-libp2p/pull/616).
+pull request][pr].
 
 ## Setup
 
@@ -29,7 +32,7 @@ server. For this example, we are using the signaling server that ships with
 You can start the server by running `npm run server`. This will start a
 signaling server locally on port `9090`. If you'd like to run a signaling server
 outside of this example, you can see instructions on how to do so in the
-[`libp2p-webrtc-star` README](https://github.com/libp2p/js-libp2p-webrtc-star).
+[`libp2p-webrtc-star` README][webstar].
 
 When you run the server, you should see output that looks something like this:
 
@@ -89,3 +92,9 @@ bootstrap servers, but they don't support the chat protocol.
 This example also shows how to use Libp2p using TypeScript. Libp2p itself
 currently does not support TypeScript, but this example includes a few minimal
 type declarations so that it can be used, even with strict compilation.
+
+[libp2p]: https://github.com/libp2p/js-libp2p
+[parcel]: https://parceljs.org/
+[babel]: https://babeljs.io/
+[pr]: https://github.com/libp2p/js-libp2p/pull/616
+[webstar]: https://github.com/libp2p/js-libp2p-webrtc-star
