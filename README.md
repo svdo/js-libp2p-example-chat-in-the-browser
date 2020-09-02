@@ -12,6 +12,13 @@ here.
 Some interesting discussion and background on this example can be found in [it's
 pull request][pr].
 
+## ARCHIVED
+
+This repository has been archived, because it was intended as a one-time
+example, not something to be maintained over time. There will be more and more
+security issues in the transitive dependencies, so if you want to use this code
+please make sure that you bring everything up to date.
+
 ## Setup
 
 In order to run the example, first install the dependencies from same directory
